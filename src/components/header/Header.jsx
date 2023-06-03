@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import './CTA'
 import CTA from './CTA' //here we import the CTA component inside our header
-import me from '../../assets/naho1.jpg'
+import me from '../../assets/Synclair.jpg'
 import HeaderSocial from './HeaderSocial' //import of headerSocial component
 
 export const Header = () => {
@@ -10,7 +10,7 @@ export const Header = () => {
         <header>
             <div className='container header__container'>
                 <h5>Hello I'm</h5>
-                <h1>KOMBOU KOMGA MURIELLE NAHOMY </h1>
+                <h1>FOLETIA AJONGAKUE SYNCLAIR </h1>
                 <h5 className='text-light'>SOFTWARE ENGINEER </h5>
                 <CTA/>
                 <HeaderSocial/>
